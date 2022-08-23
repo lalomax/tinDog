@@ -15,7 +15,7 @@ class Dog {
         let image = this.hasBeenLiked ? 
         "badge-like.png" : "badge-nope.png"
         const badge = document.createElement('img')
-        badge.src = `./images/${image}`
+        badge.src = `images/${image}`
         document.getElementById('dog-rated').appendChild(badge)
     }
   }
